@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE04A5E2B30203700DFE871 /* izgroceryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04A5D2B30203700DFE871 /* izgroceryApp.swift */; };
+		0EE04A622B30203800DFE871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE04A612B30203800DFE871 /* Assets.xcassets */; };
+		0EE04A652B30203800DFE871 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE04A642B30203800DFE871 /* Preview Assets.xcassets */; };
+		0EE04A6A2B30203800DFE871 /* izgrocery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04A682B30203800DFE871 /* izgrocery.xcdatamodeld */; };
+		0EE04A742B30203900DFE871 /* izgroceryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04A732B30203900DFE871 /* izgroceryTests.swift */; };
+		0EE04A7E2B30203900DFE871 /* izgroceryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04A7D2B30203900DFE871 /* izgroceryUITests.swift */; };
+		0EE04A802B30203900DFE871 /* izgroceryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04A7F2B30203900DFE871 /* izgroceryUITestsLaunchTests.swift */; };
+		0EE04A8E2B302CA700DFE871 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EE04A8D2B302CA700DFE871 /* Gilroy-Medium.ttf */; };
+		0EE04A962B3030E700DFE871 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04A952B3030E700DFE871 /* WelcomeView.swift */; };
+		0EE04A982B30312300DFE871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE04A972B30312300DFE871 /* LaunchScreen.storyboard */; };
+		0EE04A9A2B3032E300DFE871 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04A992B3032E300DFE871 /* UIExtension.swift */; };
+		0EE04A9C2B30634000DFE871 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04A9B2B30634000DFE871 /* RoundButton.swift */; };
+		0EE04A9E2B3064C900DFE871 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04A9D2B3064C900DFE871 /* SignInView.swift */; };
+		0EE04AA12B307B1700DFE871 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 0EE04AA02B307B1700DFE871 /* CountryPicker */; };
+		0EE04AA32B307C1700DFE871 /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04AA22B307C1700DFE871 /* CountryPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EE04A702B30203900DFE871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EE04A522B30203700DFE871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EE04A592B30203700DFE871;
+			remoteInfo = izgrocery;
+		};
+		0EE04A7A2B30203900DFE871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EE04A522B30203700DFE871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EE04A592B30203700DFE871;
+			remoteInfo = izgrocery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE04A5A2B30203700DFE871 /* izgrocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = izgrocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE04A5D2B30203700DFE871 /* izgroceryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izgroceryApp.swift; sourceTree = "<group>"; };
+		0EE04A612B30203800DFE871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EE04A642B30203800DFE871 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EE04A692B30203800DFE871 /* izgrocery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = izgrocery.xcdatamodel; sourceTree = "<group>"; };
+		0EE04A6F2B30203900DFE871 /* izgroceryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = izgroceryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE04A732B30203900DFE871 /* izgroceryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izgroceryTests.swift; sourceTree = "<group>"; };
+		0EE04A792B30203900DFE871 /* izgroceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = izgroceryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE04A7D2B30203900DFE871 /* izgroceryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izgroceryUITests.swift; sourceTree = "<group>"; };
+		0EE04A7F2B30203900DFE871 /* izgroceryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izgroceryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EE04A8D2B302CA700DFE871 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		0EE04A8F2B302D7E00DFE871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0EE04A952B3030E700DFE871 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		0EE04A972B30312300DFE871 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EE04A992B3032E300DFE871 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		0EE04A9B2B30634000DFE871 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		0EE04A9D2B3064C900DFE871 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		0EE04AA22B307C1700DFE871 /* CountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EE04A572B30203700DFE871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE04AA12B307B1700DFE871 /* CountryPicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE04A6C2B30203900DFE871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE04A762B30203900DFE871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EE04A512B30203700DFE871 = {
+			isa = PBXGroup;
+			children = (
+				0EE04A5C2B30203700DFE871 /* izgrocery */,
+				0EE04A722B30203900DFE871 /* izgroceryTests */,
+				0EE04A7C2B30203900DFE871 /* izgroceryUITests */,
+				0EE04A5B2B30203700DFE871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EE04A5B2B30203700DFE871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EE04A5A2B30203700DFE871 /* izgrocery.app */,
+				0EE04A6F2B30203900DFE871 /* izgroceryTests.xctest */,
+				0EE04A792B30203900DFE871 /* izgroceryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EE04A5C2B30203700DFE871 /* izgrocery */ = {
+			isa = PBXGroup;
+			children = (
+				0EE04A932B30308A00DFE871 /* UICommon */,
+				0EE04A922B302F8A00DFE871 /* Viewmodel */,
+				0EE04A912B302F7E00DFE871 /* Model */,
+				0EE04A902B302EED00DFE871 /* View */,
+				0EE04A8F2B302D7E00DFE871 /* Info.plist */,
+				0EE04A8C2B302BE100DFE871 /* Font */,
+				0EE04A5D2B30203700DFE871 /* izgroceryApp.swift */,
+				0EE04A612B30203800DFE871 /* Assets.xcassets */,
+				0EE04A682B30203800DFE871 /* izgrocery.xcdatamodeld */,
+				0EE04A632B30203800DFE871 /* Preview Content */,
+				0EE04A972B30312300DFE871 /* LaunchScreen.storyboard */,
+			);
+			path = izgrocery;
+			sourceTree = "<group>";
+		};
+		0EE04A632B30203800DFE871 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0EE04A642B30203800DFE871 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EE04A722B30203900DFE871 /* izgroceryTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EE04A732B30203900DFE871 /* izgroceryTests.swift */,
+			);
+			path = izgroceryTests;
+			sourceTree = "<group>";
+		};
+		0EE04A7C2B30203900DFE871 /* izgroceryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EE04A7D2B30203900DFE871 /* izgroceryUITests.swift */,
+				0EE04A7F2B30203900DFE871 /* izgroceryUITestsLaunchTests.swift */,
+			);
+			path = izgroceryUITests;
+			sourceTree = "<group>";
+		};
+		0EE04A8C2B302BE100DFE871 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0EE04A8D2B302CA700DFE871 /* Gilroy-Medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		0EE04A902B302EED00DFE871 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EE04A942B3030C700DFE871 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EE04A912B302F7E00DFE871 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EE04A922B302F8A00DFE871 /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		0EE04A932B30308A00DFE871 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				0EE04A992B3032E300DFE871 /* UIExtension.swift */,
+				0EE04A9B2B30634000DFE871 /* RoundButton.swift */,
+				0EE04AA22B307C1700DFE871 /* CountryPicker.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		0EE04A942B3030C700DFE871 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0EE04A952B3030E700DFE871 /* WelcomeView.swift */,
+				0EE04A9D2B3064C900DFE871 /* SignInView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EE04A592B30203700DFE871 /* izgrocery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE04A832B30203900DFE871 /* Build configuration list for PBXNativeTarget "izgrocery" */;
+			buildPhases = (
+				0EE04A562B30203700DFE871 /* Sources */,
+				0EE04A572B30203700DFE871 /* Frameworks */,
+				0EE04A582B30203700DFE871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = izgrocery;
+			packageProductDependencies = (
+				0EE04AA02B307B1700DFE871 /* CountryPicker */,
+			);
+			productName = izgrocery;
+			productReference = 0EE04A5A2B30203700DFE871 /* izgrocery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EE04A6E2B30203900DFE871 /* izgroceryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE04A862B30203900DFE871 /* Build configuration list for PBXNativeTarget "izgroceryTests" */;
+			buildPhases = (
+				0EE04A6B2B30203900DFE871 /* Sources */,
+				0EE04A6C2B30203900DFE871 /* Frameworks */,
+				0EE04A6D2B30203900DFE871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EE04A712B30203900DFE871 /* PBXTargetDependency */,
+			);
+			name = izgroceryTests;
+			productName = izgroceryTests;
+			productReference = 0EE04A6F2B30203900DFE871 /* izgroceryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EE04A782B30203900DFE871 /* izgroceryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE04A892B30203900DFE871 /* Build configuration list for PBXNativeTarget "izgroceryUITests" */;
+			buildPhases = (
+				0EE04A752B30203900DFE871 /* Sources */,
+				0EE04A762B30203900DFE871 /* Frameworks */,
+				0EE04A772B30203900DFE871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EE04A7B2B30203900DFE871 /* PBXTargetDependency */,
+			);
+			name = izgroceryUITests;
+			productName = izgroceryUITests;
+			productReference = 0EE04A792B30203900DFE871 /* izgroceryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EE04A522B30203700DFE871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0EE04A592B30203700DFE871 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0EE04A6E2B30203900DFE871 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0EE04A592B30203700DFE871;
+					};
+					0EE04A782B30203900DFE871 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0EE04A592B30203700DFE871;
+					};
+				};
+			};
+			buildConfigurationList = 0EE04A552B30203700DFE871 /* Build configuration list for PBXProject "izgrocery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EE04A512B30203700DFE871;
+			packageReferences = (
+				0EE04A9F2B307B1600DFE871 /* XCRemoteSwiftPackageReference "CountryPicker" */,
+			);
+			productRefGroup = 0EE04A5B2B30203700DFE871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EE04A592B30203700DFE871 /* izgrocery */,
+				0EE04A6E2B30203900DFE871 /* izgroceryTests */,
+				0EE04A782B30203900DFE871 /* izgroceryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EE04A582B30203700DFE871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE04A652B30203800DFE871 /* Preview Assets.xcassets in Resources */,
+				0EE04A982B30312300DFE871 /* LaunchScreen.storyboard in Resources */,
+				0EE04A8E2B302CA700DFE871 /* Gilroy-Medium.ttf in Resources */,
+				0EE04A622B30203800DFE871 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE04A6D2B30203900DFE871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE04A772B30203900DFE871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EE04A562B30203700DFE871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE04AA32B307C1700DFE871 /* CountryPicker.swift in Sources */,
+				0EE04A9E2B3064C900DFE871 /* SignInView.swift in Sources */,
+				0EE04A6A2B30203800DFE871 /* izgrocery.xcdatamodeld in Sources */,
+				0EE04A9C2B30634000DFE871 /* RoundButton.swift in Sources */,
+				0EE04A5E2B30203700DFE871 /* izgroceryApp.swift in Sources */,
+				0EE04A9A2B3032E300DFE871 /* UIExtension.swift in Sources */,
+				0EE04A962B3030E700DFE871 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE04A6B2B30203900DFE871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE04A742B30203900DFE871 /* izgroceryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE04A752B30203900DFE871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE04A7E2B30203900DFE871 /* izgroceryUITests.swift in Sources */,
+				0EE04A802B30203900DFE871 /* izgroceryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EE04A712B30203900DFE871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EE04A592B30203700DFE871 /* izgrocery */;
+			targetProxy = 0EE04A702B30203900DFE871 /* PBXContainerItemProxy */;
+		};
+		0EE04A7B2B30203900DFE871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EE04A592B30203700DFE871 /* izgrocery */;
+			targetProxy = 0EE04A7A2B30203900DFE871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EE04A812B30203900DFE871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EE04A822B30203900DFE871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EE04A842B30203900DFE871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"izgrocery/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = izgrocery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.proyjon.izgrocery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0EE04A852B30203900DFE871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"izgrocery/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = izgrocery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.proyjon.izgrocery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0EE04A872B30203900DFE871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.proyjon.izgroceryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/izgrocery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/izgrocery";
+			};
+			name = Debug;
+		};
+		0EE04A882B30203900DFE871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.proyjon.izgroceryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/izgrocery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/izgrocery";
+			};
+			name = Release;
+		};
+		0EE04A8A2B30203900DFE871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.proyjon.izgroceryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = izgrocery;
+			};
+			name = Debug;
+		};
+		0EE04A8B2B30203900DFE871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.proyjon.izgroceryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = izgrocery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EE04A552B30203700DFE871 /* Build configuration list for PBXProject "izgrocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE04A812B30203900DFE871 /* Debug */,
+				0EE04A822B30203900DFE871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE04A832B30203900DFE871 /* Build configuration list for PBXNativeTarget "izgrocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE04A842B30203900DFE871 /* Debug */,
+				0EE04A852B30203900DFE871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE04A862B30203900DFE871 /* Build configuration list for PBXNativeTarget "izgroceryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE04A872B30203900DFE871 /* Debug */,
+				0EE04A882B30203900DFE871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE04A892B30203900DFE871 /* Build configuration list for PBXNativeTarget "izgroceryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE04A8A2B30203900DFE871 /* Debug */,
+				0EE04A8B2B30203900DFE871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0EE04A9F2B307B1600DFE871 /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0EE04AA02B307B1700DFE871 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EE04A9F2B307B1600DFE871 /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		0EE04A682B30203800DFE871 /* izgrocery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0EE04A692B30203800DFE871 /* izgrocery.xcdatamodel */,
+			);
+			currentVersion = 0EE04A692B30203800DFE871 /* izgrocery.xcdatamodel */;
+			path = izgrocery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0EE04A522B30203700DFE871 /* Project object */;
+}
