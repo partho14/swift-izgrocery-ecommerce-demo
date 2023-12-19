@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ECD8A172B31BC4C00BEA9FC /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD8A162B31BC4C00BEA9FC /* LogInView.swift */; };
+		0ECD8A192B31BC6F00BEA9FC /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD8A182B31BC6F00BEA9FC /* LineTextField.swift */; };
+		0ECD8A1B2B31BCA200BEA9FC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD8A1A2B31BCA200BEA9FC /* MainViewModel.swift */; };
 		0EE04A5E2B30203700DFE871 /* izgroceryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE04A5D2B30203700DFE871 /* izgroceryApp.swift */; };
 		0EE04A622B30203800DFE871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE04A612B30203800DFE871 /* Assets.xcassets */; };
 		0EE04A652B30203800DFE871 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE04A642B30203800DFE871 /* Preview Assets.xcassets */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ECD8A162B31BC4C00BEA9FC /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		0ECD8A182B31BC6F00BEA9FC /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
+		0ECD8A1A2B31BCA200BEA9FC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		0EE04A5A2B30203700DFE871 /* izgrocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = izgrocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE04A5D2B30203700DFE871 /* izgroceryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izgroceryApp.swift; sourceTree = "<group>"; };
 		0EE04A612B30203800DFE871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -177,6 +183,7 @@
 		0EE04A922B302F8A00DFE871 /* Viewmodel */ = {
 			isa = PBXGroup;
 			children = (
+				0ECD8A1A2B31BCA200BEA9FC /* MainViewModel.swift */,
 			);
 			path = Viewmodel;
 			sourceTree = "<group>";
@@ -187,6 +194,7 @@
 				0EE04A992B3032E300DFE871 /* UIExtension.swift */,
 				0EE04A9B2B30634000DFE871 /* RoundButton.swift */,
 				0EE04AA22B307C1700DFE871 /* CountryPicker.swift */,
+				0ECD8A182B31BC6F00BEA9FC /* LineTextField.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 			children = (
 				0EE04A952B3030E700DFE871 /* WelcomeView.swift */,
 				0EE04A9D2B3064C900DFE871 /* SignInView.swift */,
+				0ECD8A162B31BC4C00BEA9FC /* LogInView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -339,11 +348,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EE04AA32B307C1700DFE871 /* CountryPicker.swift in Sources */,
+				0ECD8A192B31BC6F00BEA9FC /* LineTextField.swift in Sources */,
 				0EE04A9E2B3064C900DFE871 /* SignInView.swift in Sources */,
 				0EE04A6A2B30203800DFE871 /* izgrocery.xcdatamodeld in Sources */,
 				0EE04A9C2B30634000DFE871 /* RoundButton.swift in Sources */,
+				0ECD8A1B2B31BCA200BEA9FC /* MainViewModel.swift in Sources */,
 				0EE04A5E2B30203700DFE871 /* izgroceryApp.swift in Sources */,
 				0EE04A9A2B3032E300DFE871 /* UIExtension.swift in Sources */,
+				0ECD8A172B31BC4C00BEA9FC /* LogInView.swift in Sources */,
 				0EE04A962B3030E700DFE871 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
